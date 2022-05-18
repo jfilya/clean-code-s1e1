@@ -40,10 +40,10 @@
   margin: 0;
   padding: 0px;
 }
-.list, .title{
+.list {
   list-style: none;
 }
-input,button{
+input,button {
   outline: none;
 }
 .btn {
@@ -139,6 +139,6 @@ input,button{
   width: 224px;
 }
 
-.edit-mode .task{
+.edit-mode .task {
   display: none;
 }
