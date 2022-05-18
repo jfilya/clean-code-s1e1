@@ -19,7 +19,8 @@
 
 @media (max-width:768px) {
 
-  .top {  text-align: center;
+  .top {
+    text-align: center;
   }
 
 }
@@ -28,7 +29,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .new-text, .task-text {
+.task,
+.new-text,
+.task-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -36,14 +39,16 @@
 .task-wrapper {
   display: flex;
 }
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 .list {
   list-style: none;
 }
-input,button {
+input,
+button {
   outline: none;
 }
 .btn {
@@ -68,7 +73,8 @@ input,button {
   margin: 0;
   text-transform: uppercase;
 }
-.task-text, .new-text {
+.task-text,
+.new-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
